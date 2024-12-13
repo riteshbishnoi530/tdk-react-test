@@ -16,7 +16,8 @@ module.exports = {
       },
       fontSize: {
         'custom-6xl': '61px',
-        'custom-xl': '22px'
+        'custom-xl': '22px',
+        'custom-sm': '13px'
       },
       colors: {
         'off-grey': '#525252',

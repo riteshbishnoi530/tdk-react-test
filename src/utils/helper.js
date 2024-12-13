@@ -11,18 +11,6 @@ export const SLIDER_LIST = [
     {
         image: './assets/images/webp/gallery-4.webp'
       },
-      {
-        image: './assets/images/webp/gallery-1.webp'
-      },
-      {
-        image: './assets/images/webp/gallery-2.webp'
-      },
-      {
-        image: './assets/images/webp/gallery-3.webp'
-      },
-      {
-          image: './assets/images/webp/gallery-4.webp'
-        }
   ];
 
   export const NAV_LIST = [

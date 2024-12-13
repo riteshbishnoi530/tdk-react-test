@@ -1,12 +1,13 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import { SLIDER_LIST } from '../../utils/helper';
+import { NextArrow, PrevArrow } from '../../utils/icons';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { SLIDER_LIST } from '../../utils/helper';
-import { NextArrow, PrevArrow } from '../../utils/icons';
+
 function FeaturesSlide() {
   return (
     <div className='px-4 py-5 min-h-screen items-center flex'>
@@ -32,7 +33,7 @@ function FeaturesSlide() {
             loop={true}>
             {SLIDER_LIST.map((item, index) => (
               <SwiperSlide key={index}>
-                <div className='' key={index}>
+                <div key={index}>
                   <img src={item.image} alt=""/>
                 </div>
               </SwiperSlide>

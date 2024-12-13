@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom';
 import { SearchIcon } from '../../utils/icons';
 import { NAV_LIST } from '../../utils/helper';
 
@@ -34,7 +33,7 @@ const Header = () => {
                         {NAV_LIST.map((obj, i) => (
                             <ul key={i}>
                                 <li className='flex gap-1 flex-row justify-center items-center'>
-                                    <a href={obj.id} className='text-custom-xs font-normal text-white leading-custom-xl'>{obj.link}</a>
+                                    <a href={obj.id} className='text-custom-sm font-normal text-white leading-custom-xl hover:[text-shadow:_0_1px_0_#ffff] transition-all ease-linear duration-300'>{obj.link}</a>
                                 </li>
                             </ul>
                         ))}
@@ -52,7 +51,7 @@ const Header = () => {
                     <span className={`${open ? 'w-5 h-0.5 bg-white rotate-45 translate-y-3 duration-300 ease-linear rounded' : 'w-6 h-0.5 bg-white duration-300 ease-linear rounded'}`}></span>
                     <span className={`${open ? 'w-5 h-0.5 bg-white opacity-0 duration-700 ease-linear' : 'w-6 h-0.5 bg-white duration-700 ease-linear rounded'}`}></span>
                     <span className={`${open ? 'w-5 h-0.5 bg-white -rotate-45 -translate-y-0 duration-300 ease-linear rounded' : 'w-6 h-0.5 bg-white duration-300 ease-linear rounded'}`}></span>
-                    <p className="text-white text-sm font-light duration-300 ease-linear">MENU</p>
+                    <p className="text-white text-sm font-light duration-300 ease-linear uppercase">MENU</p>
                 </div>
             </div>
         </div>
