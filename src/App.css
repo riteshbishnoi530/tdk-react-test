@@ -1,0 +1,55 @@
+.swiper-slide{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.swiper-pagination{
+    position: unset !important;
+}
+
+.swiper-button-prev{
+    left: -20px !important;
+}
+
+.swiper-button-next{
+    right: -20px !important;
+}
+
+.swiper-button-next:after{
+    display: none;
+}
+
+.swiper-button-prev:after{
+    display: none;
+}
+
+.heading{
+    max-width: 1072px;
+    padding-top: 68px;
+}
+
+.logo-list{
+    padding-top: 63px;
+    padding-bottom: 68px;
+}
+
+@media (max-width:1024px){
+    .logo-list{
+        padding-top: 57.17px;
+        padding-bottom: 59.56px;
+    }
+}
+
+@media (max-width:768px){
+    .logo-list{
+        padding-top: 50px;
+        padding-bottom: 55px;
+    }
+}
+
+@media (max-width:640px){
+    .logo-list{
+        padding-top: 42.36px;
+        padding-bottom: 44.84px;
+    }
+}
