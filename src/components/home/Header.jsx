@@ -21,7 +21,7 @@ const Header = () => {
         };
     }, [open]);
     return (
-        <div className='overflow-hidden mx-auto bg-off-blue pb-4'>
+        <div className='overflow-hidden mx-auto bg-off-blue pb-4 max-sm:pb-2'>
             <div className='flex lg:flex-col max-lg:justify-between max-lg:items-center max-lg:pr-5'>
                 <div className='flex w-full justify-between lg:bg-dark-blue max-xl:pl-5 max-xl:pr-3'>
                     <div className="container lg:flex lg:w-full lg:justify-between items-center ">

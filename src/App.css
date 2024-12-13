@@ -45,11 +45,17 @@
         padding-top: 50px;
         padding-bottom: 55px;
     }
+    .heading{
+        padding-top: 50px;
+    }
 }
 
 @media (max-width:640px){
     .logo-list{
         padding-top: 42.36px;
         padding-bottom: 44.84px;
+    }
+    .heading{
+        padding-top: 39px;
     }
 }
